@@ -25,7 +25,9 @@ public class BiConsumerBiPredicateundBiFunction {
 
     }
 
-    
+    static boolean vergleich(Predicate<Integer> predicate, Integer i) {
+        return predicate.test(i);
+    }
 
     static void anzeige(Consumer<Integer> consumer, Integer i) {
         consumer.accept(i);
