@@ -14,6 +14,10 @@ public abstract class AbstractCalculator {
         this.devide = devide;
     }
 
+    public AbstractCalculator(){
+
+    }
+
     public abstract Number add(Number a, Number b);
     public abstract Number sub(Number a, Number b);
     public abstract Number multiply(Number a, Number b);

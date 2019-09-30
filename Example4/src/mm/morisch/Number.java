@@ -24,4 +24,12 @@ public class Number {
     public void setB(double b) {
         this.b = b;
     }
+
+    @Override
+    public String toString() {
+        return "Solution{" +
+                "A=" + a +
+                ", B=" + b +
+                '}';
+    }
 }
